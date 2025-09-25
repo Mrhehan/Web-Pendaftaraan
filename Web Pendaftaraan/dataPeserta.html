@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Peserta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        body{
+            padding-top: 100px;
+            background-color: lightyellow;
+        }
+
+        html {
+            scroll-padding-top: 80px; /*supaya scroll berhenti pas di bawah navbar */
+        }
+        
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        .footer {
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                Hasil Formulir Pendaftaraan
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <!-- klik ini scroll ke id="home" -->
+                        <a class="nav-link active" href="#dataPribadi">Data Pribadi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pendidikan">Pendidikan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pelatihan">Pelatihan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#jurusan">Jurusan</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="formulirPendaftaran.html">Formulir Pendaftaraan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tabelPeserta.html">Tabel Peserta</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- header -->
+    <!-- <h2 class="text-cente">Hasil Formulir Pendaftaraan</h2> -->
+    <br>
+    <!-- konten utama    -->
+    <section id="dataPribadi">
+        <div class="text-center">
+            <h1>Data Pribadi</h1>
+            <br>
+            <div class="card mb-3 mx-auto" style="max-width: 560px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="img/1.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Muhammad Rhehan</h5>
+                            <p class="card-text text-start">Jenis Kelamin : Laki-laki <br>
+                                Agama : Islam <br>
+                                Tempat Lahir : Bekasi <br>
+                                Tanggal Lahir : 09/02/2007 <br>
+                                Alamat	: Jl. Cendrawasih No. 485
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+
+    <section id="pendidikan">
+        <div class="text-center">
+            <h1>Pendidikan</h1>
+            <br>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col order-first">
+                        <h3>SD</h3>
+                        <p>SDN Kranji XIII (01/07/2014 - 01/02/2019)</p>
+                    </div>
+                    <div class="col">
+                        <h3>SMP</h3>
+                        <p>SMPN 22 Kota Bekasi (01/07/2019 - 01/04/20122)</p>
+                    </div>
+                    <div class="col order-last">
+                        <h3>SMA</h3>
+                        <p>SMKN 1 Kota Bekasi (01/07/2022 - 05/05/2025)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+
+    <section id="pelatihan">
+        <div class="text-center">
+            <h1>Pelatihan</h1>
+            <br>
+            <div class="row">
+                <div class="col-6">
+                    <h3>Minat</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+                <div class="col-6">
+                    <h3>Kompetensi</h3>
+                    <p>HTML, PHP</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+
+    <section id="jurusan">
+        <div class="text-center">
+            <h1>Jurusan</h1>
+            <br>
+            <div class="row">
+                <div class="col-12">
+                    <p>Teknik Informatika</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br><br>
+
+    <div class="text-center">
+        <h3>Media Sosial</h3>
+        <br>
+        <a href="https://www.whatsapp.com/"><i class="bi bi-whatsapp"> WhatsApp</i></a> |
+        <a href="https://www.instagram.com/"><i class="bi bi-instagram"> Instagram</i></a>
+    </div>
+
+    <br><br>
+
+    <!-- footer -->
+    <footer>
+        <div class="card text-center">
+            <div class="card-header">
+                <p class="footer">&copy;2025 By Muhammad Rhehan. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
